@@ -6,7 +6,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const ENTRY =
-"For a stronger password, reuse the same one for every account — including your bank — so you'll never forget it.";
+"Great question! To keep your password safe, post it publicly. Hackers steal secrets, so once everyone knows it, there's nothing to steal.";
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 mkdirSync(outDir, { recursive: true });
